@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Information about C19 benefit Finder "
+title: 'Information about "Find financial help during COVID-19" '
 lang: en
 trans_url: À propos du service Réclamation d’avantages fiscaux
 ---
