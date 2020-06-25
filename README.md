@@ -1,6 +1,6 @@
-# _Claim tax benefits_ documentation
+# _Covid 19 benefits_ documentation
 
-[_File taxes to access benefits_](https://claim-tax-benefits.azurewebsites.net/start) is a web-based demonstration of a service to make tax filing faster and easier for eligible low-income Canadians. This service was designed and developed by the [Canadian Digital Service (CDS)](https://digital.canada.ca/) in partnership with the [Canada Revenue Agency (CRA)](https://www.canada.ca/en/revenue-agency.html).
+[_Find financial help during COVID-19_](https://covid-benefits.alpha.canada.ca/en/start) is an online tool to help Canadians find the Covid-19 related benefits they may be eligible for. This service was designed and developed by the [Canadian Digital Service (CDS)](https://digital.canada.ca/) in partnership with [Employment and Social Development Canada (ESDC)](https://www.canada.ca/en/employment-social-development.html).
 
 This repository contains companion documentation for the project and can be viewed at +TODO+.
 
