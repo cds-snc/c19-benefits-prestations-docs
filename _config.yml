@@ -18,7 +18,7 @@ collections:
 name: Claim tax benefits documentation
 subtitle: Help low-income Canadians file taxes to access their benefits
 
-baseurl: "/claim-tax-benefits-documentation"
+baseurl: ""
 
 # Author/Organization info to be displayed in the templates
 author:
