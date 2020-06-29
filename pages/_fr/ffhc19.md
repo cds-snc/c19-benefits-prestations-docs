@@ -2,7 +2,7 @@
 layout: page
 title: À propos du service Réclamation d’avantages fiscaux
 lang: fr
-trans_url: Information about Claim tax benefits
+trans_url: Information about Find financial help during COVID-19
 ---
 
 [Réclamation d’avantages fiscaux](https://claim-tax-benefits.azurewebsites.net/start?lang=fr) est un service visant à rendre la production des déclarations de revenus plus rapide et plus facile, de sorte que les Canadiens et les Canadiennes à faible revenu puissent avoir accès à des crédits et à des prestations. Ce service a été conçu et développé par le [Service numérique canadien (SNC)](https://numerique.canada.ca/) en partenariat avec l’[Agence du revenu du Canada (ARC)](https://www.canada.ca/fr/agence-revenu.html).

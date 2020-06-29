@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Information about "Find financial help during COVID-19" '
+title: Information about Find financial help during COVID-19
 lang: en
 trans_url: À propos du service Réclamation d’avantages fiscaux
 ---

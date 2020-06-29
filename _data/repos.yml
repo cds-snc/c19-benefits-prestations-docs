@@ -1,8 +1,8 @@
 en:
-  - name: cra-claim-tax-benefits
+  - name: c19-benefits-node
     description: A benefit signup prototype
-    url: https://github.com/cds-snc/cra-claim-tax-benefits
+    url: https://github.com/cds-snc/c19-benefits-node
 fr:
-  - name: cra-claim-tax-benefits
+  - name: c19-benefits-node
     description: Un prototype d’inscription à des prestations
-    url: https://github.com/cds-snc/cra-claim-tax-benefits
+    url: https://github.com/cds-snc/c19-benefits-node

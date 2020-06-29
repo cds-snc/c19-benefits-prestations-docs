@@ -15,8 +15,8 @@ collections:
     output: false
 
 # Title
-name: Claim tax benefits documentation
-subtitle: Help low-income Canadians file taxes to access their benefits
+name: Find financial help during COVID-19
+subtitle: Help Canadians find benefits they may be eligible for during Covid-19
 
 baseurl: ""
 
@@ -34,7 +34,7 @@ logoalt:
 
 # List repos that you would like to appear on the homepage here
 repos:
-  - name: cra-claim-tax-benefits
+  - name: c19-benefits-node
 
 # Offline caching
 offline_cache: false
