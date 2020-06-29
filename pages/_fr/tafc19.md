@@ -1,6 +1,6 @@
 ---
 layout: page
-title: À propos du service Réclamation d’avantages fiscaux
+title: À propos Trouver de l’aide financière pendant la COVID-19
 lang: fr
 trans_url: Information about Find financial help during COVID-19
 ---
