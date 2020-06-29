@@ -2,7 +2,7 @@
 layout: page
 title: Information about Find financial help during COVID-19
 lang: en
-trans_url: À propos Trouver de l’aide financière pendant la COVID-19
+trans_url: tafc19
 ---
 [Find financial help during COVID-19](https://covid-benefits.alpha.canada.ca/) (the “Finder”) was built to help people living in Canada during the COVID-19 crisis. The finder helps people determine which government benefits programs best meet their needs.
 
