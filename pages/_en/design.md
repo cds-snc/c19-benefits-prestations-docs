@@ -30,7 +30,7 @@ We then further iterated based on research insights, resulting in numerous conte
 
 
 
-Accessibility reviews
+## Accessibility reviews
 
 Two accessibility reviews were conducted for this product: one by an accessibility expert at CDS and another by the Innovation, Information and Technology and Citizen Service Branch at ESDC. Some accessibility issues addressed either through review or through design iteration, include:
 
