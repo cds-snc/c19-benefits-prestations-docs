@@ -4,160 +4,63 @@ title: Research
 lang: en
 trans_url: Recherche
 ---
+## Methodology and main insights
 
-## Introduction
+The benefit finder was designed to be an intermediary between gated, personalized information accessible through the Canada Revenue Agency’s “My Account” or ESDC’s “My Service Canada Account” and public, generalized information available on [Canada.ca](https://www.canada.ca/home.html). In order to investigate how to better meet these needs, we used several research methods :
 
-The Claim tax benefits project was designed and developed with the needs of tax filers at the heart of every decision. Using generative design research methods, we developed an understanding of what tax filers need in order to file a tax return and access benefits. We then used evaluative methods such as usability testing to validate or challenge hypothesized solutions. The process of designing, testing, and iterating provided us with further insight into what works and what doesn’t when meeting the needs of tax filers in the context of a remote service.
+* Competitive analysis: March-April 2020
 
-Over the course of the partnership, we surveyed 152 people, conducted interviews and usability tests with 82 people, and conducted 13 studies. This is an abridged version of the full research report for this project. The full report includes all of the research insights and full methodology overview.
+  * We conducted a competitive analysis to learn from other similar, existing products. A number of similar products were evaluated on how successfully they met user needs, as interpreted by design experts (heuristics).
+* Online situation scans: March-May 2020
 
-## Current state insights
+  * We scanned online for situations from social media, news articles, and stories from family and friends, as a supplement to survey and guerrilla test findings.
+* Guerrilla testing: March-June 2020
 
-Generative research is a category of design research methods that aim to produce deep understanding of an experience or behaviour in order to identify a problem to solve and to generate potential solutions. During the discovery and early alpha phases of this project, we used generative research to understand tax filing as it stands today.
+  * We conducted guerrilla testing in order to work within tight timelines. We used this method to quickly and approximately assess test concepts and identify content design and usability issues.
+  * Guerrilla testing is useful for speedy pulse checks. We treated the findings with caution as we did not have time to build a participant panel and range of situations to cover every type of person who might use the tool.
+  * During moderated, 1-on-1, remote sessions, participants were asked to tell us about their life situations and to try using our tool while talking aloud.
+  * Due to our timelines, our sampling was not rigorous and our sample size was small. In the span of April-June 2020, we conducted guerrilla testing with 37 participants, over 7 rounds of testing.
 
-This project started in partnership with the Community Volunteer Income Tax Program (CVITP) within CRA. Two of our generative research studies focused on the experiences of tax clinic clients and another focused on the experiences of tax filers with limited mobility more broadly.
+    * 27 Anglophone participants
+    * 10 Francophone participants
+* COVID-19 situation and needs survey: April 2020
 
-### Tax filing goals: what motivates someone with low income to file a tax return?
+  * We conducted a large sample survey of 223 Canadians financially affected by COVID-19. This informed the product roadmap for our benefit finder. This survey also broadened our research efforts to ensure that we gathered knowledge about a diverse population.
+* Through this survey we learned that 20% of respondents were still unsure of their eligibility for financial benefits: 18% were unsure about Employment Insurance (EI) specifically and 17% were unsure about CERB specifically. We learned that 40% of respondents still had questions about financial benefits.
+* Feedback form
+* * Using the feedback component from CDS and Canada.ca’s “Report a problem” design, we have implemented a feedback button on every page of our tool. Issues and feedback are automatically compiled into an Airtable and manually coded into themes.
+  * Feedback submissions without completed open-text are used for aggregate data analysis, such as determining the highest category of issue in the last week.
+  * We compiled a summary of this feedback for the team (May 7-27, 2020) to identify issues occurring on each page. This allowed us to learn about situations that are not covered by the benefit finder.
+  * The ‘dashboard’ (actually called ‘Blocks’ on AirTable) shows, per page, the frequency of each issue, as well as the free text added for that page. The viewer/researcher can filter the dashboard by time of current and ongoing issues. The viewer can also access a chart view showing changes over time. This includes changes in the number of instances of each reported issue per page.
+  * We learned through the feedback form that people receiving disability benefits were not able to get past the first few questions.
+* Usability testing with people with disabilities:
+* * In order to ensure our tool is accessible, we conducted usability testing with people with disabilities.
+  * As we had done in guerrilla testing, we asked participants to tell us about their situations and then asked them to try using our tool.
+  * In the span of 1 month, we conducted 2 rounds of testing with 7 people with disabilities, 3 of whom used adaptive technology.
+* Review of other existing research resources such as:
+* * [Insights: COVID-19 and its impact on people with disabilities](https://www.makeitfable.com/insights/covid-19/).
+  * Other Government of Canada COVID-19 research.
 
-<ol class="strong">
+## Motivations and needs
 
-<li>
-<span>To meet their responsibilities as Canadian residents or citizens and avoid punishment by CRA.</span><br />
-<p>For many, receiving benefit payments is not the primary motivation for filing a tax return. Participants felt a strong obligation to file a return as Canadian citizens or residents. Most assumed that failing to do so would result in some kind of negative sanction from the government.</p>
-</li>
+When designing government products and services, user contexts and questions are generally fairly stable. In most cases, research activities have at least a few months, and often a year, in which to reach conclusive findings. Due to the COVID crisis, the Canadian context evolved more rapidly than anticipated, and caused changes to available benefits.
 
-<li>
-<span>To get and maximize benefits</span><br />
-<p>At the tax clinic we interviewed tax filers who had planned tight monthly budgets according to the benefits they expected to receive, and knew exactly what they were going to spend their return on: children’s clothes, groceries, or paying off debt. They turned to the tax clinic for help because they trusted volunteers to get them all of the benefits they were eligible for.</p>
-</li>
+However, the public’s motivation for reducing financial stress seemed consistent throughout the 2.5 months of product development.
 
-<li>
-<span>To access other programs that require proof of income</span><br />
-<p>Various social assistance programs external to CRA are income tested and require proof of having filed a tax return. Some clients visit tax clinics with the explicit purpose of obtaining proof of filing so that they can access other supports.</p>
-</li>
+Motivations:
 
-</ol>
+* Get the greatest amount of financial help possible; not ‘losing out’.
+* * Regardless of COVID-19, people try to improve their situation.
+* Avoid using savings and try to control spending.
+* Fulfill a moral obligation to avoid applying for benefits to which they are not entitled.
+* Avoid trouble with the government.
 
-### Barriers
+Needs:
 
-**Tax filers seek in-person assistance because they lack confidence in their own ability to file a return without making a mistake or accidental omission.**
+* Access easy-to-understand information.
+* Access factual information that will not cause harm.
+* Confirm that use of the benefit finder will not harm their eligibility.
+* Encounter consistent information across mediums, such as the Prime Minister’s announcements, news, friends, Canada.ca, including current information.
+* Read only the minimum amount required.
 
-- Determining which steps to take, which information to divulge, and how to interpret eligibility criteria for individual claims and benefits is not intuitive: it requires background knowledge or research
-- Tax filers with simple tax situations may have complex life situations that are difficult to communicate to CRA. The answers to seemingly simple questions, like “what was your address last year?” can be ambiguous for someone who is experiencing or recovering from a turbulent period in their life.
-
-**This lack of confidence becomes a barrier because it is connected to a fear of negative outcomes.**
-
-- Tax filers believe that mistakes in their tax return will result in negative outcomes such as financial penalties, legal action, or heightened future scrutiny from CRA. The participants we interviewed came to the tax clinic because they believed that they would make mistakes if they filed by themselves.
-
-### In-person assistance is not always possible to reach
-
-Our generative research indicated that lack of confidence acts as a barrier to filing and accessing benefits, and that free, in-person assistance offered at tax clinics helps tax filers overcome that barrier.
-
-Physically getting to in-person assistance can be an insurmountable barrier to tax filing for some, while adding a layer of complexity to the process for others. Travelling outside the home can be particularly difficult and time consuming to coordinate for tax filers with mobility-related disabilities, especially when the task is time sensitive. For others, lack of transportation or time can make it difficult to get to free, in-person services.
-
-> “We come to the clinic so that they can help you do everything – all the math... if the computer can do \[it automatically] then maybe there’s a chance we could do it at home and just stay at home.”
-
-A tax filer might have difficulty accessing in-person services because:
-
-- There is no clinic nearby, particularly in rural and remote areas
-- There is no transportation to get to the clinic
-- The tax clinic environment can be challenging for people with mental illnesses
-- In-person services can be difficult to get to for people with disabilities
-
-Of the 13.4 million individuals across Canada with income under \$35,000 around 741,460 file returns through the Community Volunteer Income Tax Program each year. While brick and mortar tax clinics are effective for those who can reach them, program data indicates that expansion of the program is seeing diminishing returns of impact for investment. For each new tax clinic added, fewer additional returns are being filed as a result.
-
-## Future state insights
-
-We know which features of tax clinics and other services work well for tax filers with low income and limited mobility: asking a limited number of simple, personalized questions, and providing guidance on how to complete the process.
-
-To address mobility barriers we designed a service that does not include in-person touchpoints. It allows tax filers to complete and submit their return entirely online or by mail.
-
-### What do tax filers need in order to file taxes without assistance?
-
-While self-serve, remote tax filing services can help address mobility barriers, the absence of in-person assistance may present other channel-specific barriers. During alpha and beta phases of the project we used evaluative research methods such as validation and usability testing to uncover barriers unique to a remote service. Evaluative studies were conducted primarily with participants recruited at food banks, who had varying degrees of familiarity with different tax filing methods. This section outlines the specific needs we identified over the course of our research with tax filers, and the design decisions that resulted.
-
-#### Tax filers need to feel confident that they will not get in trouble with the CRA if they do their taxes alone.
-
-Tax filers make decisions based on what they think will help them avoid negative outcomes after their return is filed.
-
-![Diagram demonstrating which questions are shown or hidden depending on answers. If you answer "no" to "Would you like to vote in the federal election?" you do not see pages asking about citizenship or permission to register. You skip to the next question.]({{ site.baseurl }}/assets/img/skippingscreenshot.png "Question filtering diagram")
-
-##### Present only the questions that are necessary and relevant to the tax filer
-
-When completing a paper tax return, tax filers are presented with a long list of blank fields. Tax filers can feel overwhelmed by the apparent number of decisions about which boxes to fill out and whether they qualify for each benefit or credit.
-
-The MVP Claim tax benefits service emulates the personalized guidance available at tax clinics by showing only questions that apply to tax filers with income under roughly $12,000 per year ($19,000 for individuals under 65) and simple tax situations. The online channel further eliminates questions that don’t apply based on answers to preceding questions.
-
-##### Eliminate steps and required documents wherever possible
-
-Tax slips are typically required when completing a tax return. Without the guidance of volunteers, tax clinic clients worry that they are unknowingly missing a required tax slip or other document and may not know how to replace a document if it is missing.
-
-Claim tax benefits does not require tax filers to input specific information from their tax slips, as that information is already known by CRA. Instead, they confirm that their income is below the MVP threshold, and that they do not have additional income to declare.
-
-##### Ask simple, unambiguous questions
-
-Our research found that tax filers lose confidence or may unknowingly give the wrong answer, when the “right answer” is ambiguous. During usability testing, participants had trouble answering “yes or no” when there was qualifying information embedded in the question. In an earlier iteration of the service, a question asked tax filers if they had home energy costs, but only if they also lived on a reserve.
-
-![Example of question on website: Question: In 2018, did you live on a reserve and pay home energy costs. Yes no radio buttons. Continue or cancel buttons.]({{ site.baseurl }}/assets/img/screen-shot-2020-03-18-at-19.17.33.png "Original question design")
-
-We decided to break down complex questions like this into multiple questions with clear “yes or no” answers, presented in sequential order. If the question contained a term that might not be familiar, a definition was provided in an accordion menu below.
-
-![Screenshot of benefit question page titled "Home on reserve." Question "At any time in 2019, was your principal residence on reserve land under the law called the Indian Act?" Yes and No radio buttons. Link titled: Learn about principal residence. Description: Your principal residence is your main home, where you usually lived. You can have more than one principal residence during the year, but only one at a time. If you paid costs for several homes at the same time, only include costs for your principal residence." Next and cancel buttons.](https://lh6.googleusercontent.com/oz3FPSygo3lZzD2JPssnfwpFh69IDObvbxJGgyXj7s63UnVGCy5hTFa_V15Z0mPKz31FDu5kRbUcn3AvZu08Im3i1oha1O3K69_xB4EvOBlF33naByWMUD07b8rlWiXcInnVHO9k "Screenshot of benefit question page")
-
-#### Tax filers need to use the channel that is most accessible to them.
-
-Channels are the medium through which people convey and receive information in order to use a service.
-
-**When paper is inaccessible**
-
-Many people with mobility and vision-related disabilities use screen readers and other assistive technology to find and access information. Paper communications are not accessible by default. Our research with participants with limited mobility found that accessing the information written on a piece of paper can compromise tax filers’ agency and privacy. This is because it forces tax filers with disabilities to choose between spending valuable time converting paper to digital format, or asking someone else for help with a task that they could otherwise complete independently on the computer.
-
-**When digital is inaccessible**
-
-For tax filers who do not use digital assistive technology, being required to use a digital channel can be equally problematic due to lack of access to a computer, low computer literacy, or mistrust in digital communication channels.
-
-##### Work towards an end-to-end service path through single channels
-
-Tax filers need to be able to complete the entire service using the channel that works for them. In order to do this, in future iterations of Claim tax benefits would work towards providing electronic invitations to tax filers who prefer digital communications, as an alternative to mailed invitations.
-
-#### Tax filers need to feel confident that the service isn’t a scam
-
-Scams are top of mind for tax filers: many have either experienced contact attempts from someone pretending to be the CRA, or know someone else who has. We heard from research participants who had been legitimately contacted by CRA, but remained unsure as to whether or not the communication was trustworthy.
-
-This research insight suggests that new services that are offered remotely, and in an environment where malicious actors are present, face a unique barrier to uptake: proving their legitimacy to tax filers. While building familiarity and trust in the service over time may be the primary solution to this problem, research with tax filers uncovered some additional approaches.
-
-##### Cater to existing methods of distinguishing between scams and legitimate services
-
-When determining whether or not a communication or service is indeed from CRA and not a criminal trying to defraud them, participants looked for:
-
-**Familiar visual cues**
-
-_Does a letter or online message look similar to others they’ve received in the past? Is it something that would be difficult to recreate?_
-
-The Claim tax benefits service maintains a similar look and feel to existing CRA communications and services – we were cautious about introducing radically new design patterns.
-
-**Logical consistency**
-
-_Does this seem like something CRA would ask or do, based on their understanding of how taxes work and CRA’s motivations and goals?_
-
-We made sure to clearly communicate major departures from the filing process that tax filers are accustomed to, such as no longer requiring that they input their income information.
-
-**Official confirmation**
-
-_Can a tax expert or trusted CRA information source reassure them that the service is real?_
-
-In validation and usability testing, participants indicated that they would call CRA to verify that the service was real. Plans for live release of the service included making sure that call agents have the information to answer questions about the new service.
-
-## Next Steps – Further evaluative research
-
-### Usability testing with participants who use assistive technology
-
-Tax filers with limited mobility were identified as an underserved population that could benefit from a free, remote service. Usability testing with screen reader users may uncover barriers to access not covered by WCAG 2.1 requirements.
-
-### Mediated concierge testing – usability testing with real outcomes
-
-Our research indicates that **confidence** and **risk-based decision making** are the key factors in tax filing behaviour. These concepts in particular hinge on the presence of real or perceived risks and potential outcomes. This is why, for tax-related services in particular, it is critical to test with a high level of realism. Conducting usability tests where participants are filing real returns and making real decisions based on expectations about real outcomes could reveal previously hidden confidence barriers.
-
-### Performance monitoring and analytics
-
-On an agile product, design iterations do not stop once the product is live. Monitoring outcomes and use patterns provides valuable information about how the service is performing at scale. Usage analytics like bounce rates, time on page, and navigation flows are useful diagnostic tools for identifying where usability problems might lie. Knowing which pages are associated with unexpected behaviour can help researchers decide how to focus future usability testing sessions to find out why tax filers are interacting with the service in a given way.
+To learn more about our research findings, please contact us at [Canadian Digital Service](mailto:cds-snc@tbs-sct.gc.ca).
