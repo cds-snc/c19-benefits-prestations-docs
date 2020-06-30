@@ -40,7 +40,7 @@ The benefit finder allows people to match benefits to their individual situation
 <dt>2</dt>
 		<dd id="fn2">
 			<p><a href="https://mnpdebt.ca/en/lp/debt-index#:~:text=The%20MNP%20Consumer%20Debt%20Index%20measures%20Canadians'%20attitudes%20toward%20their,rate%20fluctuations%20without%20approaching%20insolvency.&text=The%20precision%20of%20Ipsos%20online%20polls%20is%20measured%20using%20a%20credibility%20interval.">The MNP Consumer Debt Index</a> measures Canadians’ attitudes toward their consumer debt and gauges their ability to pay their bills, endure unexpected expenses and absorb interest-rate fluctuations without approaching insolvency. Conducted by Ipsos and updated quarterly, the Index is an industry-leading barometer of financial pressure or relief among Canadians.</p>
-			<p><a href="#fn2-1-rf">Return to footnote 2</a></p>
+			<p><a href="#fn2-rf">Return to footnote 2</a></p>
 		</dd>
 </dl>
 
