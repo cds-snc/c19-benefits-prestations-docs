@@ -44,8 +44,6 @@ The benefit finder was designed to be an intermediary between gated, personalize
   * [Insights: COVID-19 and its impact on people with disabilities](https://www.makeitfable.com/insights/covid-19/).
   * Other Government of Canada COVID-19 research.
 
-
-
 ## Motivations and needs
 
 When designing government products and services, user contexts and questions are generally fairly stable. In most cases, research activities have at least a few months, and often a year, in which to reach conclusive findings. Due to the COVID crisis, the Canadian context evolved more rapidly than anticipated, and caused changes to available benefits.
