@@ -18,4 +18,4 @@ Several media articles, and a social media thread describe this work:
 * [The Hill Times article - "Amid three million unemployed, digital minister extols benefits of departmental cooperation, rapid rollout of online benefit-finder tool"](https://www.hilltimes.com/2020/06/04/amid-three-million-unemployed-digital-minister-extols-benefits-of-departmental-cooperation-rapid-rollout-of-online-benefit-finder-tool/251465?utm_source=Subscriber+-++Hill+Times+Publishing&utm_campaign=5732f84b1c-EMAIL_CAMPAIGN_2020_06_05_10_00&utm_medium=email&utm_term=0_8edecd9364-5732f84b1c-91422728&mc_cid=5732f84b1c&mc_eid=262507f43d)
 * [CBC Article - “Government launches benefit-finder tool for emergency aid as parties spar over return of Parliament“](https://www.cbc.ca/news/politics/benefits-aid-covid19-parliament-house-1.5580106)
 
-* [CDS Twitter thread following the official PM announcement](https://twitter.com/CDS_GC/status/1263857242199265280) ([And in french](https://twitter.com/SNC_GC/status/1263859639483092992))
+* [CDS Twitter thread following the official PM announcement](https://twitter.com/CDS_GC/status/1263857242199265280)
