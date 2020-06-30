@@ -4,18 +4,26 @@ title: Context
 lang: en
 trans_url: Contexte
 ---
-The CRA collects income tax from individuals and businesses, and also administers benefits. Many people with low income do not owe additional taxes when they file a tax return. Instead they are eligible for refunds as a result of tax benefits and credits.
+COVID-19 has had a severe financial impact on people living in Canada.
 
-Unfortunately many of these people do not receive a refund because they do not file taxes. Of those who do get refunds, many file with assistance from the [Community Volunteer Income Tax Program](https://www.canada.ca/en/revenue-agency/services/tax/individuals/community-volunteer-income-tax-program.html) . This program hosts free clinics where volunteers file taxes for eligible people. Initially, the CDS/CRA partnership focused on increasing the capacity of the volunteer clinics.
+An Angus Reid institute survey conducted from March 20-23, 2020 found that:
 
-Early research led to a change in direction. Research insights indicated a primary need for user-friendly tax-filing tools for low income Canadians. Through the partnership, the team learned that CRA already has most information that tax-filers include in their returns. Using this information, we aimed to design a service that provides a wizard-like tax filing experience: rather than requiring tax-filers to enter their information, the service presents information that the CRA already has, then asks tax-filers to confirm the information is correct.
+* 34% of respondents said they worried about missing rent or mortgage payments this month.
+* 44% of respondents said they or someone in their household has lost work.
+* An additional 18% of respondents said they expect to lose work soon, and more than half of those currently working say their hours will be cut.
 
-Several blog posts discuss the work of the partnership:
+The MNP Consumer Debt Index , released March 30, 2020, found that half of Canadians are now on the brink of insolvency. Only $200 separates these people from defaulting on their debt obligations each month. A quarter of these people said they are already unable to meet those obligations.
 
-* July 2019 [Validation testing: A way to challenge your assumptions](https://digital.canada.ca/2019/07/31/validation-testing-a-way-to-challenge-your-assumptions/)
-* April 2019 [Co-location: leave no team member behind](https://digital.canada.ca/2019/04/10/co-location-leave-no-team-member-behind/)
-* November 2018 [Helping Canadians with low income complete their taxes](https://digital.canada.ca/2018/11/07/helping-low-income-canadians-complete-their-taxes/)
+COVID-19 continues to cause financial strain to many people both worldwide and in Canada. It has put increased pressure on people who were already experiencing poverty, as well as those who were previously financially stable.
 
-News article describing the work:
+In this context, accessing benefits can lead to additional stress due to program and eligibility rules. People must find and read through information about all benefits available in order to learn:
 
-* August 2019  [Canadian Digital Service collaborates with CRA to help modest income taxpayers access benefits](https://www.itworldcanada.com/article/canadian-digital-service-collaborates-with-cra-to-help-modest-income-taxpayers-access-benefits/420767)
+* Which benefits are relevant for them.
+* The amount of assistance they could expect to receive from each benefit.
+* Where and how to apply.
+* When they could expect to receive each benefit.
+
+The benefit finder allows people to match benefits to their individual situation. It shows them how much assistance they can expect, how frequently they can expect it, and when they will receive it. This information helps people make immediate financial decisions and determine their next steps.
+
+<http://angusreid.org/covid-19-economic-impact-canada/>\
+[The MNP Consumer Debt Index](https://mnpdebt.ca/en/lp/debt-index#:~:text=The%20MNP%20Consumer%20Debt%20Index%20measures%20Canadians'%20attitudes%20toward%20their,rate%20fluctuations%20without%20approaching%20insolvency.&text=The%20precision%20of%20Ipsos%20online%20polls%20is%20measured%20using%20a%20credibility%20interval.) measures Canadians’ attitudes toward their consumer debt and gauges their ability to pay their bills, endure unexpected expenses and absorb interest-rate fluctuations without approaching insolvency. Conducted by Ipsos and updated quarterly, the Index is an industry-leading barometer of financial pressure or relief among Canadians.
