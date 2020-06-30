@@ -32,14 +32,14 @@ The benefit finder allows people to match benefits to their individual situation
 
 ## Footnotes
 <dl>
-		<dt>1</dt>
+		<dt></dt>
 		<dd id="fn1">
-			<p><a href="http://angusreid.org/covid-19-economic-impact-canada">COVID-19: Those least equipped to endure economic downturn bearing the brunt of layoffs</a></p>
-			<p class="fn-rtn"><a href="#fn1-rf">Return to footnote 1</a></p>
+			<p><sup id="fn1-1-rf">1</sup> <a href="http://angusreid.org/covid-19-economic-impact-canada">COVID-19: Those least equipped to endure economic downturn bearing the brunt of layoffs. - Angus Reid Institute</a></p>
+			<p><a href="#fn1-rf">Return to footnote 1</a></p>
 		</dd>
-<dt>2</dt>
+<dt></dt>
 		<dd id="fn2">
-			<p><a href="https://mnpdebt.ca/en/lp/debt-index#:~:text=The%20MNP%20Consumer%20Debt%20Index%20measures%20Canadians'%20attitudes%20toward%20their,rate%20fluctuations%20without%20approaching%20insolvency.&text=The%20precision%20of%20Ipsos%20online%20polls%20is%20measured%20using%20a%20credibility%20interval.">The MNP Consumer Debt Index</a> measures Canadians’ attitudes toward their consumer debt and gauges their ability to pay their bills, endure unexpected expenses and absorb interest-rate fluctuations without approaching insolvency. Conducted by Ipsos and updated quarterly, the Index is an industry-leading barometer of financial pressure or relief among Canadians.</p>
+			<p><sup id="fn2-2-rf">2</sup> <a href="https://mnpdebt.ca/en/lp/debt-index#:~:text=The%20MNP%20Consumer%20Debt%20Index%20measures%20Canadians'%20attitudes%20toward%20their,rate%20fluctuations%20without%20approaching%20insolvency.&text=The%20precision%20of%20Ipsos%20online%20polls%20is%20measured%20using%20a%20credibility%20interval.">The MNP Consumer Debt Index</a> measures Canadians’ attitudes toward their consumer debt and gauges their ability to pay their bills, endure unexpected expenses and absorb interest-rate fluctuations without approaching insolvency. Conducted by Ipsos and updated quarterly, the Index is an industry-leading barometer of financial pressure or relief among Canadians.</p>
 			<p><a href="#fn2-rf">Return to footnote 2</a></p>
 		</dd>
 </dl>
