@@ -5,180 +5,41 @@ lang: en
 trans_url: Conception
 ---
 
-Our service design was informed by best practices and research insights. Research showed that tax-filers need to:
 
-- be able to file without travelling for help
-- feel confident that they will not get in trouble if they do their taxes alone
-- feel confident that the service is not a scam
-- get proof of filing to access other programs and benefits
-- use the channel that is most accessible to them
+Our design was informed by best practices. The first iteration was based on the assumption that users need to:
 
-Based on these considerations, we developed an invitation only service with both an online and a paper channel. Invitees can use this simplified method to file their taxes and access benefits. To learn more, the service blueprint is available upon request at [cds-snc@tbs-sct.gc.ca](mailto:cds-snc@tbs-sct.gc.ca).
+* Easily navigate the online tool, focusing on one question at a time.
+* Choose from a list of relatable situations written in plain language.
+* Access a list of benefits potentially available to them, as well as information about the amount of financial support that might be available through each benefit.
+* Link directly to application information or forms.
 
-**The service touchpoints are:**
+The iteration also included a feedback tool to gain insight on service and policy gaps.
 
-- a [letter]({{ site.baseurl }}/assets/pdf/invitation-letter-en.pdf) inviting people to use this service,
-- a [paper form]({{ site.baseurl }}/assets/pdf/paper-form-en.pdf) for people who will not file online
-- an [online tool](https://claim-tax-benefits.azurewebsites.net/start) which allows people to file taxes through a website, and which can take the form of:
+We then further iterated based on research insights, resulting in numerous content and design changes. Highlights from these changes include:
 
-  - a ‘lite’ journey that requires no security questions and no corresponding disclosure of financial information. Tax-filers must wait two weeks to receive their notice of assessment by mail.
-  - an ‘authenticated’ journey which requires answering security questions and disclosure of financial information. Tax-filers will receive an immediate notice of assessment online.
+* The design now displays the Goods and Services Tax (GST) credit option, tells people how to check whether they receive that credit, and provides access to further information on the GST.
+* The tool uses the word “income” instead of “work” (e.g. “lose income”) because research participants indicated that the date they lost work often differed from the date they lost income.
+* We emphasized that the benefit finder allows people to apply for CERB as indicated in media reports. To facilitate this, we instructed people who were eligible for EI and CERB to “Apply for CERB”, instead of “Apply for EI and CERB”.
+* The design at the top of the results page lists the number of benefits available. In previous iterations, research indicated that people only looked at the first option and did not notice further options below.
+* The term “student debt” was ambiguous, so the question was changed to “Do you have student loans you owe the government?” instead of “Do you have student debt?”
+* Text was added to the introductory and results pages to clarify that the tool does not guarantee eligibility, but rather provides a list of possible benefits for which people can apply.
+* We added ‘None of the above’ as an interim option so that people receiving disability benefits could answer the other questions and get to a results page.
+* The “Canadians abroad” content on the start page was moved to a less visible place on the page, as in earlier iterations some people thought the benefit finder was for Canadians abroad. This link was eventually removed from the homepage.
+* Content was changed and added to help self-employed people navigate the service.
+* We changed the results page so that in addition to learning which benefits they may be eligible for, users also learn which benefits they are unlikely to be entitled to receive. This gives people a clear understanding of the benefit landscape, and lets them know which benefits are currently integrated in the tool.
 
-There is potential to develop an internal tool that CRA staff can use to process the paper form. This tool could then be adapted for processing of other simplified forms.
 
-## Invitation Letter
 
-CRA will send the invitation letter to select participants to on-board them onto the service. The letter gives context about the service and explains how to access both channels.
+Accessibility reviews
 
-**Core research insights**
+Two accessibility reviews were conducted for this product: one by an accessibility expert at CDS and another by the Innovation, Information and Technology and Citizen Service Branch at ESDC. Some accessibility issues addressed either through review or through design iteration, include:
 
-- The invitation letter must provide context for the service, predominantly display the options (paper or online channel) and explain what is required to complete the service.
-- The letter must be in a form that can be mailed or sent electronically depending on preference. Electronic notification is particularly important for tax-filers who use screen readers.
 
-**Organizational Constraints**
 
-Printing
-
-- The CRA printing services face several limitations, in particular the inability to include boxes or customized information (i.e. location of personal access code) in the body of the letter.
-- Due to timelines, we were unable to create a dynamic field to display the personal access code in the letter. The current process requires approximately 12-15 months in order to incorporate this field, or to create a similar field for display of the tax-filer’s name in the paper form.
-- The tax-filer’s name must appear on the form to ensure that the individual does not provide their form to another person who is not eligible to use this service. The team has initiated discussions with the appropriate areas.
-
-Electronic notifications
-
-- At this time, it is not possible to notify tax-filers of this service by email to their My Account.
-- We are unable to provide personalised information such as the access code in the letter for security reasons. This requires further examination in collaboration with the appropriate areas.
-
-**Design Interventions**
-
-- Clear context at the beginning of letter to invite tax filer to use service, and explain what the service provides
-- Headings that explain the option between online and paper, and what the tax-filer needs in order to use the service
-
-**Next Steps**
-
-- Work with the CRA team responsible for printing to display the options in a table
-- Determine how to notify tax-filers using MyAccount. It may also be possible to allow direct log-in through My Account without an access code.
-
-## Paper Form
-
-The paper channel is a simplified form submitted by mail as a tax return.
-
-**Core research insights**
-
-- Paper is a necessary channel for people who do not feel confident, comfortable, or have access to use a computer.
-- The paper form needs to be simple and in plain language, following clearly explained steps.
-- The form should not rely on any appendix or external information sheet. All required information should be contextualized on the page so that the tax-filer does not need to check other documents in order to complete the form.
-
-**Organizational constraints**
-
-- Limited information can be pre-filled due to printing constraints and security risks. Only the name and a reference code for CRA use can be pre-filled
-
-**Design Interventions**
-
-- Form headings appear in a sequence of easy to follow steps.
-- Relevant information appears in each step of the form, to prevent the need for external instruction and reduce cognitive load
-
-**Next Steps**
-
-- Content testing to ensure that instructions are clearly understood, so the form is easy to complete.
-- Stress test a completed form with the processing team to confirm the form can be used to file a tax return
-- Investigate potential for building internal tool to streamline processing.
-
-## Online Tool
-
-The online channel is a web application via which invited tax-filers can submit their return.
-
-**Core Research Insights**
-
-- Avoid double barrelled questions which put onus on tax-filers as these can cause confusion and can lead to critical error when completing the service
-- People are easily overwhelmed by tax questions, so we need to ask questions that they immediately believe they can answer
-- A majority of users could not answer two enhanced security questions, meaning an alternative journey should be provided
-
-**Organizational Constraints**
-
-- Authentication through security questions is required to disclose financial information and provide an Express Notice of Assessment as soon as the return is submitted online
-- The service is unable to automatically pre-screen potential tax-filers since it cannot predict changes in personal circumstances that may make someone ineligible
-
-**Design interventions**
-
-- Use one question per page
-- Use a consistent pattern of yes or no questions
-- Ask questions about the tax-filer rather than questions about their taxes
-- Only use a checkbox on the screen where the tax filer must confirm their income; every other screen should use binary radio buttons
-- Provide a ‘lite’ journey (no disclosure with a two week wait to receive a Notice of Assessment by mail) so that people can still use the service if they are unable or unwilling to answer security questions.
-
-**Next Steps**
-
-- Implement content suggestions (document available upon request at [cds-snc@tbs-sct.gc.ca](mailto:cds-snc@tbs-sct.gc.ca))
-- Additional user testing
-- Design a simplified authentication flow using questions that most tax-filers are able to answer so that the CRA can disclose their financial information
-
-## Product states
-
-### Minimal Viable Product
-
-The Minimal Viable Product (MVP) is the first iteration of the service. We had intended the MVP to be available to selected tax-filers through a pilot or private beta release, with limited features and eligibility criteria.
-
-<table>
-  <tbody>
-    <tr>
-      <th>Eligibility Criteria</th>
-      <th>Features</th>
-    </tr>
-    <tr>
-      <td>
-        <ul>
-          <li>People who earn 12k if under age 65, or 19k if age 65 or above</li>
-          <li>Resident of Ontario</li>
-          <li>No spouses or dependent children</li>
-          <li>No students</li>
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li>File tax return</li>
-          <li>Register for Ontario trillium benefits</li>
-          <li>Register for Climate action incentive</li>
-          <li>Change address (<strong>paper only</strong>)</li>
-          <li>Notice of assessment by mail in up to 2 weeks (online) and 8 weeks (paper)</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-The mature state will provide both a ‘lite’ and ‘authenticated’ journey within the online channel. Individual tax-filers can opt to answer security questions in order to access more features.
-
-### Mature State
-
-The mature state is a later iteration with broader eligibility criteria and a wider range of features. These features and criteria will be scaled up incrementally and iteratively.
-
-<table>
-  <tbody>
-    <tr>
-      <th>Eligibility Criteria</th>
-      <th>Features</th>
-    </tr>
-    <tr>
-      <td>
-        <ul>
-          <li>People who earn 35k or less</li>
-          <li>Any province of residence</li>
-          <li>Includes spouses and dependent children</li>
-          <li>No students</li>
-        </ul>
-      </td>
-      <td>
-        <ul>
-          <li>File tax return</li>
-          <li>Register for Ontario trillium benefits</li>
-          <li>Register for Climate action incentive</li>
-          <li>Change address (<strong>paper and authenticated journey only</strong>)</li>
-          <li>Claim charitable donations, political contributions, medical expenses, etc (for people who earn above basic personal amount)</li>
-          <li>Notice of assessment immediately (authenticated journey), up to 2 weeks by mail (lite journey) and 8 weeks (paper)</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-The mature state will provide both a ‘lite’ and ‘authenticated’ journey within the online channel. Individual tax-filers can opt to answer security questions in order to access more features.
+* Adding a distinct heading to each page to help screen readers quickly navigate between pages.
+* Ensuring every link opens in a new tab.
+* Adding a back button to allow people to easily return to previous questions.
+* Preventing decorative icons from being read by screen readers.
+* Ensuring clear and concise error messages whenever a user attempts to navigate to another page without selecting an option.
+* Changing province selection from radio buttons to an autocomplete/dropdown hybrid following [the GOV UK autocomplete](https://github.com/alphagov/accessible-autocomplete) design.
+* Re-designing the benefit headers to colour-code and to distinguish between benefits available to the individual user, other help, and benefits not available to that user. The list of benefits not available was collapsed into an accordion. This structure facilitates accessibility of the information, while simultaneously reducing cognitive load.
