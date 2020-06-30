@@ -19,7 +19,7 @@ All you need to do here is run the app and then find all the URLs.
 
    * Check out “Running Locally” in the [README](https://github.com/cds-snc/c19-benefits-node/blob/master/README.md).
    * The app will be running at <http://localhost:3030/>.
-2. A full list of URLs can be found in [/config/routes.config.js](https://github.com/cds-snc/cra-claim-tax-benefits/blob/master/config/routes.config.js). You will have to navigate the flows to see them all.
+2. A full list of URLs can be found in [/config/routes.config.js](https://github.com/cds-snc/c19-benefits-node/blob/master/config/routes.config.js). You will have to navigate the flows to see them all.
 
 ## 2. Continue using our repository
 
