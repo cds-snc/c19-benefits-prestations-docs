@@ -84,7 +84,7 @@ All new pull requests have a suite of automated tests run against them.
 
 ### Continuing development
 
-[A walkthrough on how to continue development on this project](https://docs.google.com/document/d/1JNiTEslQjt8xW7jXF--kAAeCH6uIGV12y4mAwwnitvM/edit?ts=5efa28bc#heading=h.cjjlgkk1llzc): whether your aim is to rebuild the service in a new technology or to develop and release this codebase specifically.
+[A walkthrough on how to continue development on this project](/continuing-development/): whether your aim is to rebuild the service in a new technology or to develop and release this codebase specifically.
 
 
 
