@@ -26,20 +26,25 @@ The benefit finder was designed to be an intermediary between gated, personalize
 * COVID-19 situation and needs survey: April 2020
 
   * We conducted a large sample survey of 223 Canadians financially affected by COVID-19. This informed the product roadmap for our benefit finder. This survey also broadened our research efforts to ensure that we gathered knowledge about a diverse population.
-* Through this survey we learned that 20% of respondents were still unsure of their eligibility for financial benefits: 18% were unsure about Employment Insurance (EI) specifically and 17% were unsure about CERB specifically. We learned that 40% of respondents still had questions about financial benefits.
+  * Through this survey we learned that 20% of respondents were still unsure of their eligibility for financial benefits: 18% were unsure about Employment Insurance (EI) specifically and 17% were unsure about CERB specifically. We learned that 40% of respondents still had questions about financial benefits.
 * Feedback form
-* * Using the feedback component from CDS and Canada.ca’s “Report a problem” design, we have implemented a feedback button on every page of our tool. Issues and feedback are automatically compiled into an Airtable and manually coded into themes.
+
+  * Using the feedback component from CDS and Canada.ca’s “Report a problem” design, we have implemented a feedback button on every page of our tool. Issues and feedback are automatically compiled into an Airtable and manually coded into themes.
   * Feedback submissions without completed open-text are used for aggregate data analysis, such as determining the highest category of issue in the last week.
   * We compiled a summary of this feedback for the team (May 7-27, 2020) to identify issues occurring on each page. This allowed us to learn about situations that are not covered by the benefit finder.
   * The ‘dashboard’ (actually called ‘Blocks’ on AirTable) shows, per page, the frequency of each issue, as well as the free text added for that page. The viewer/researcher can filter the dashboard by time of current and ongoing issues. The viewer can also access a chart view showing changes over time. This includes changes in the number of instances of each reported issue per page.
   * We learned through the feedback form that people receiving disability benefits were not able to get past the first few questions.
 * Usability testing with people with disabilities:
-* * In order to ensure our tool is accessible, we conducted usability testing with people with disabilities.
+
+  * In order to ensure our tool is accessible, we conducted usability testing with people with disabilities.
   * As we had done in guerrilla testing, we asked participants to tell us about their situations and then asked them to try using our tool.
   * In the span of 1 month, we conducted 2 rounds of testing with 7 people with disabilities, 3 of whom used adaptive technology.
 * Review of other existing research resources such as:
-* * [Insights: COVID-19 and its impact on people with disabilities](https://www.makeitfable.com/insights/covid-19/).
+
+  * [Insights: COVID-19 and its impact on people with disabilities](https://www.makeitfable.com/insights/covid-19/).
   * Other Government of Canada COVID-19 research.
+
+
 
 ## Motivations and needs
 
@@ -47,15 +52,16 @@ When designing government products and services, user contexts and questions are
 
 However, the public’s motivation for reducing financial stress seemed consistent throughout the 2.5 months of product development.
 
-Motivations:
+**Motivations**:
 
 * Get the greatest amount of financial help possible; not ‘losing out’.
-* * Regardless of COVID-19, people try to improve their situation.
+
+  * Regardless of COVID-19, people try to improve their situation.
 * Avoid using savings and try to control spending.
 * Fulfill a moral obligation to avoid applying for benefits to which they are not entitled.
 * Avoid trouble with the government.
 
-Needs:
+**Needs**:
 
 * Access easy-to-understand information.
 * Access factual information that will not cause harm.
