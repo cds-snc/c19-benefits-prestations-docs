@@ -4,85 +4,81 @@ title: Continuer le développement
 lang: fr
 trans_url: Continuing development
 ---
-L’outil de recherche des prestations est une application presque autonome, avec une intégration externe requise uniquement pour la fonctionnalité de rétroaction.
+Ce document décrit comment poursuivre le développement avec ce code de base – ainsi que la structure de l’application et les technologies utilisées – pour faciliter la reprise de ce travail à l’avenir.
 
+On prévoit deux scénarios pour poursuivre le développement :
 
+1. Exécuter l’application et afficher toutes les pages afin de la restructurer à l’aide d’autres technologies.
+2. Poursuivre le développement de ce référentiel précis.
 
-En raison des délais courts de lancement et d’itération sur ce produit, il y a eu des compromis sur plusieurs décisions de conception. Les calculs de prestations et la logique de routage sont [étroitement liés](https://en.wikipedia.org/wiki/Coupling_(computer_programming)) à l’application elle-même. Il est donc facile de mettre à jour le contenu existant, mais cela rend l’ajout de nouveaux itinéraires et prestations plus complexe.
+## 1. Exécuter l’application et afficher toutes les pages
 
-### Référentiel
+Tout ce que vous avez à faire ici est d’exécuter l’application et puis de trouver toutes les adresses URL.
 
-[C19-Benefits-Node](https://github.com/cds-snc/c19-benefits-node)
+1. D’abord, exécutez-la.
+2. * Consultez « Running Locally » (Exécution locale) dans le [README](https://github.com/cds-snc/c19-benefits-node/blob/master/README.md).
+   * L’application s’exécutera à l’adresse <http://localhost:3030/>.
+3. Une liste complète des adresses URL se trouve à l’adresse [/config/routes.config.js](https://github.com/cds-snc/c19-benefits-node/blob/master/config/routes.config.js). Vous devrez naviguer dans les flux pour les voir tous.
 
-Référentiel principal pour l’outil de recherche des prestations
+## 2. Continuer à utiliser notre référentiel
 
-[C19-Benefits-Manifest](https://github.com/cds-snc/c19-benefits-manifest)
+Pour pouvoir reprendre le développement après un certain temps arbitraire, vous devez d’abord exécuter l’application, mettre à jour toutes les dépendances npm, puis vérifier que tous les tests réussissent avant de faire autre chose.
 
-Journal d’audit des lancements en production
+1. D’abord, exécutez-la.
+2. * Consultez « Running Locally » (Exécution locale) dans [README](https://github.com/cds-snc/c19-benefits-node/blob/master/README.md).
+   * L’application s’exécutera à l’adresse <http://localhost:3030/>.
+3. Ensuite, exécutez les tests. S’ils réussissent tous (ils devraient), alors vous pouvez continuer.
+4. * Consultez « Testing » (Tests) dans [README](https://github.com/cds-snc/c19-benefits-node/blob/master/README.md).
+5. Mettez à jour toutes les dépendances, car beaucoup seront obsolètes.
 
-### À l’intention des développeurs
+### Structure du référentiel
 
-* Sommaire
-* * Utilisation des services de tiers.
-  * Tests automatisés.
-  * Poursuite du développement.
-* Développer et exécuter l’application.
+| Folder               | Purpose                                                                                          |
+| -------------------- | ------------------------------------------------------------------------------------------------ |
+| `/.github/workflows` | CI/CD pipelines/workflows                                                                        |
+| `/bin`               | Runtime script for Node.js and helpful shell scripts                                             |
+| `/config`            | Configurations for the npm modules<wbr>/middleware used                                          |
+| `/cypress`           | End to end test fixtures and integrations                                                        |
+| `/locales`           | Internationalization (i18n) keys to support both English and French official languages           |
+| `/middleware`        | Custom written middleware                                                                        |
+| `/public`            | Static resources (images, scripts, stylesheets, favicon): all our styling is in `/public/scss`.  |
+| `/routes`            | Controllers (routes and business logic) and unit tests                                           |
+| `/terraform`         | Azure and HashiCorp Terraform scripts for Infrastructure as Code (IaC)                           |
+| `/utils`             | Utility functions and [express middleware](https://expressjs.com/en/guide/using-middleware.html) |
+| `/views`             | [Pug](https://pugjs.org/api/getting-started.html) view files that translate to HMTL at runtime   |
 
+### Choix technologiques
 
+#### Développement
 
-### Sommaire
+* Express.js (Node.js).
+* Nunjucks (technologie d’affichage).
+* express-validator (validation de formulaire).
+* Tailwind CSS (styles).
+* Jest (tests unitaires).
+* Cypress (tests de bout en bout).
+* Morgan (intergiciel du journal de requêtes HTTP).
+* Helmet (intergiciel de stratégie de sécurité du contenu).
 
-L’application de l’outil de recherche des prestations est une application express côté serveur utilisant le modèle [Nunjucks](https://mozilla.github.io/nunjucks/) sur le serveur et le cadre [Tailwind CSS](https://tailwindcss.com/) pour le style. L’échafaudage de l’application provient du générateur express.
+#### Intégration et prestation continues
 
+* GitHub Actions.
+* Seekret (trouver des secrets dans le code).
+* Snyk (analyse continue de la sécurité).
+* Semmle/LGTM (analyse de sécurité continue).
 
+#### Informatique en nuage
 
-L’application met en œuvre de nombreuses pratiques recommandées pour un service Web moderne.
+Microsoft Azure est le fournisseur de services infonuagiques.
 
+* Azure AppService (offre de plateforme comme service pour déployer l’application).
+* Registre conteneur d’Azure.
+* Azure KeyVault (Secrets).
+* Azure Application Insights (Metrics and journalisation).
 
+#### Déploiement
 
-* Elle suit les [directives de SNC](https://numerique.canada.ca/a11y/) pour l’élaboration de services inclusifs et accessibles.
-* Elle dispose de diverses fonctionnalités de sécurité, comme les [en-têtes HTTP sécurisés](https://helmetjs.github.io/), la [protection CSRF](https://github.com/expressjs/csurf) et la validation de formulaire.
-* Elle est abondamment testée, y compris des tests [cypress](https://www.cypress.io/) de bout en bout avec des [analyses d’accessibilité intégrées](https://github.com/avanslaars/cypress-axe).
-* Elle comprend un pipeline d’intégration continue et de déploiement continu (IC/DC), compatible avec [GitHub Actions](https://github.com/features/actions).
-* Elle peut s’exécuter en tant qu’application de nœud sur un système d’exploitation *nix ou Windows ou en tant que conteneur [Docker](https://docs.docker.com/install/).
-* Elle comprend des [scripts terraform](https://github.com/cds-snc/c19-benefits-node/tree/master/terraform) pour le déploiement dans Azure.
+* Azure AppService.
+* Docker.
 
-### Utilisation des services de tiers
-
-On utilise plusieurs services tiers pour un meilleur flux de développement et une sécurité continue.
-
-
-
-* [GitHub](https://github.com/) est un service infonuagique qui stocke notre code source, suit les changements de code et facilite les révisions de code.
-* [GitHub Actions](https://github.com/features/actions) est un service d’IC/DC qui nous permet de tester et de [déployer notre code](https://github.com/cds-snc/c19-benefits-node/blob/master/.github/workflows/build-deploy-dev.yml) directement à partir de GitHub.
-* * Les services d’IC/DC abondent, mais on a utilisé GitHub Actions parce qu’il était facile à configurer, et avec sa configuration basée sur le yml, il serait aussi facile de partir.
-* [Heroku](https://www.heroku.com/home) est une plateforme entièrement gérée en tant que service. Nous utilisons [Review Apps](https://devcenter.heroku.com/articles/github-integration-review-apps) de Heroku pour développer des applications jetables par demande d’extraction, ce qui facilite les examens de code.
-* [Snyk](https://snyk.io/) est un logiciel comme service qui analyse nos dépendances liées aux trousses avec des problèmes connus. Il nous avertit lorsqu’une version d’une trousse que nous utilisons une exploitation connue.
-* [LGTM](https://lgtm.com) est un logiciel comme service d’analyse de sécurité continue. Il analyse chaque demande d’extraction pour déterminer les vulnérabilités de sécurité possibles.
-* [AirTable](https://airtable.com/) est une base de données comme service que l’on a utilisé pour saisir les commentaires des utilisateurs de l’application. L’interface conviviale d’AirTable a permis à nos chercheurs et concepteurs d’analyser facilement les commentaires des utilisateurs sans devoir élaborer une solution personnalisée.
-
-
-
-### Tests automatisés
-
-Toutes les nouvelles demandes d’extraction ont un ensemble de tests automatisés exécutés contre elles.
-
-
-
-* [Jest](https://jestjs.io/) : Tests unitaires pour vérifier la bonne logique interne des composantes.
-* [ESLint](https://eslint.org/) : application de lint JavaScript qui assure un protocole JS uniforme dans toute l’application.
-* [Cypress](https://www.cypress.io/) : Tests de bout en bout axé sur les comportements qui passent par les flux utilisateur souhaités.
-* * [cypress-axe](https://github.com/avanslaars/cypress-axe) : on effectue une analyse d’accessibilité par page (à l’aide d’axe) pour vérifier les violations dans le balisage.
-* [ShellCheck](https://github.com/koalaman/shellcheck) : Un outil d’analyse statique au moyen duquel on exécute tous les scripts shell qui détecte les problèmes de syntaxe, les problèmes sémantiques et les pièges qui peuvent pousser un script à produire des messages d’erreur difficiles à comprendre, se comporter étrangement ou échouer dans certaines circonstances.
-* [Jsonlint](https://github.com/zaach/jsonlint) : application de lint de notation d’objet JavaScript pour s’assurer que les fichiers locaux sont toujours valides.
-* [Seekret](https://github.com/apuigsech/seekret) : Outil permettant de s’assurer que les secrets comme les mots de passe ou les clés API ne sont pas enregistrés dans le code source.
-
-### Poursuite du développement
-
-[Marche à suivre pour poursuivre le développement dans ce projet](https://docs.google.com/document/d/1JNiTEslQjt8xW7jXF--kAAeCH6uIGV12y4mAwwnitvM/edit#heading=h.2bn6wsx) : que votre objectif soit de restructurer le service dans une nouvelle technologie ou de développer et de publier ce code en particulier.
-
-
-
-### Développer et exécuter l’application
-
-Consultez [README](https://github.com/cds-snc/c19-benefits-node/blob/master/README.md) pour obtenir des instructions plus détaillées sur le développement et le déploiement de l’application.
+Si vous avez des questions ou des commentaires sur le produit, veuillez envoyer un courriel au [Service du numérique canadien](mailto:cds-snc@tbs-sct.gc.ca).
