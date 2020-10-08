@@ -34,7 +34,7 @@ L’outil de recherche des prestations permet aux gens de faire correspondre les
 <dl>
 		<dt></dt>
 		<dd id="fn1">
-			<p><sup id="fn1-1-rf">1</sup> <a href="http://angusreid.org/covid-19-economic-impact-canada">Un sondage de l’institut Angus Reid mené du 20 au 23 mars 2020</a> (en anglais)</p>
+			<p><sup id="fn1-1-rf">1</sup> <a href="http://angusreid.org/covid-19-economic-impact-canada">L’institut Angus Reid – « COVID-19: Those least equipped to endure economic downturn bearing the brunt of layoffs » (en anglais seulement)</a></p>
 			<p><a href="#fn1-rf">Retour à la référence de la note de bas de page 1</a></p>
 		</dd>
 <dt></dt>
