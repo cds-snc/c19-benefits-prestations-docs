@@ -33,19 +33,19 @@ Pour pouvoir reprendre le développement après un certain temps arbitraire, vou
 
 ### Structure du référentiel
 
-| Folder               | Purpose                                                                                          |
+| Dossier              | But                                                                                              |
 | -------------------- | ------------------------------------------------------------------------------------------------ |
-| `/.github/workflows` | CI/CD pipelines/workflows                                                                        |
-| `/bin`               | Runtime script for Node.js and helpful shell scripts                                             |
-| `/config`            | Configurations for the npm modules<wbr>/middleware used                                          |
-| `/cypress`           | End to end test fixtures and integrations                                                        |
-| `/locales`           | Internationalization (i18n) keys to support both English and French official languages           |
-| `/middleware`        | Custom written middleware                                                                        |
-| `/public`            | Static resources (images, scripts, stylesheets, favicon): all our styling is in `/public/scss`.  |
-| `/routes`            | Controllers (routes and business logic) and unit tests                                           |
-| `/terraform`         | Azure and HashiCorp Terraform scripts for Infrastructure as Code (IaC)                           |
-| `/utils`             | Utility functions and [express middleware](https://expressjs.com/en/guide/using-middleware.html) |
-| `/views`             | [Pug](https://pugjs.org/api/getting-started.html) view files that translate to HMTL at runtime   |
+| `/.github/workflows` | Pipelines/flux de travail d’IC/DC                                                                        |
+| `/bin`               | Script d’exécution pour Node.js et scripts shell utiles                                             |
+| `/config`            | Configurations des modules npm/intergiciels utilisés                                          |
+| `/cypress`           | Fonctions et intégrations de tests de bout en bout                                                        |
+| `/locales`           | Clés d’internationalisation (i18n) pour prendre en charge les langues officielles en français et en anglais           |
+| `/middleware`        | Intergiciel personnalisé rédigé                                                                        |
+| `/public`            | Ressources statiques (images, scripts, feuilles de style, icône favorite) : tous nos styles se trouvent dans /public/scss.  |
+| `/routes`            | Contrôleurs (itiniraires et logique opérationnelle) et tests unitaires                                           |
+| `/terraform`         | Scripts Terraform Azure et HashiCorp pour l’infrastructure comme code (IaC)                           |
+| `/utils`             | Fonctions d’utilitaire et [intergiciel express](https://expressjs.com/en/guide/using-middleware.html) |
+| `/views`             | Fichiers d’affichage [Pug](https://pugjs.org/api/getting-started.html) qui se traduisent en HTML au moment de l’exécution   |
 
 ### Choix technologiques
 
