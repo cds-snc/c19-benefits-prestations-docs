@@ -23,7 +23,7 @@ Journal d’audit des lancements en production
 ### À l’intention des développeurs
 
 * Sommaire
-* * Utilisation des services de tiers.
+  * Utilisation des services de tiers.
   * Tests automatisés.
   * Poursuite du développement.
 * Développer et exécuter l’application.
@@ -47,7 +47,7 @@ On utilise plusieurs services tiers pour un meilleur flux de développement et u
 
 * [GitHub](https://github.com/) est un service infonuagique qui stocke notre code source, suit les changements de code et facilite les révisions de code.
 * [GitHub Actions](https://github.com/features/actions) est un service d’IC/DC qui nous permet de tester et de [déployer notre code](https://github.com/cds-snc/c19-benefits-node/blob/master/.github/workflows/build-deploy-dev.yml) directement à partir de GitHub.
-* * Les services d’IC/DC abondent, mais on a utilisé GitHub Actions parce qu’il était facile à configurer, et avec sa configuration basée sur le yml, il serait aussi facile de partir.
+  * Les services d’IC/DC abondent, mais on a utilisé GitHub Actions parce qu’il était facile à configurer, et avec sa configuration basée sur le yml, il serait aussi facile de partir.
 * [Heroku](https://www.heroku.com/home) est une plateforme entièrement gérée en tant que service. Nous utilisons [Review Apps](https://devcenter.heroku.com/articles/github-integration-review-apps) de Heroku pour développer des applications jetables par demande d’extraction, ce qui facilite les examens de code.
 * [Snyk](https://snyk.io/) est un logiciel comme service qui analyse nos dépendances liées aux trousses avec des problèmes connus. Il nous avertit lorsqu’une version d’une trousse que nous utilisons une exploitation connue.
 * [LGTM](https://lgtm.com) est un logiciel comme service d’analyse de sécurité continue. Il analyse chaque demande d’extraction pour déterminer les vulnérabilités de sécurité possibles.
@@ -60,7 +60,7 @@ Toutes les nouvelles demandes d’extraction ont un ensemble de tests automatis�
 * [Jest](https://jestjs.io/) : Tests unitaires pour vérifier la bonne logique interne des composantes.
 * [ESLint](https://eslint.org/) : application de lint JavaScript qui assure un protocole JS uniforme dans toute l’application.
 * [Cypress](https://www.cypress.io/) : Tests de bout en bout axé sur les comportements qui passent par les flux utilisateur souhaités.
-* * [cypress-axe](https://github.com/avanslaars/cypress-axe) : on effectue une analyse d’accessibilité par page (à l’aide d’axe) pour vérifier les violations dans le balisage.
+  * [cypress-axe](https://github.com/avanslaars/cypress-axe) : on effectue une analyse d’accessibilité par page (à l’aide d’axe) pour vérifier les violations dans le balisage.
 * [ShellCheck](https://github.com/koalaman/shellcheck) : Un outil d’analyse statique au moyen duquel on exécute tous les scripts shell qui détecte les problèmes de syntaxe, les problèmes sémantiques et les pièges qui peuvent pousser un script à produire des messages d’erreur difficiles à comprendre, se comporter étrangement ou échouer dans certaines circonstances.
 * [Jsonlint](https://github.com/zaach/jsonlint) : application de lint de notation d’objet JavaScript pour s’assurer que les fichiers locaux sont toujours valides.
 * [Seekret](https://github.com/apuigsech/seekret) : Outil permettant de s’assurer que les secrets comme les mots de passe ou les clés API ne sont pas enregistrés dans le code source.
