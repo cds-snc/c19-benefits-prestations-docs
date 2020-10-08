@@ -8,7 +8,7 @@ childPages:
 ---
 L’outil de recherche des prestations est une application presque autonome, avec une intégration externe requise uniquement pour la fonctionnalité de rétroaction.
 
-En raison des délais courts de lancement et d’itération sur ce produit, il y a eu des compromis sur plusieurs décisions de conception. Les calculs de prestations et la logique de routage sont [étroitement liés](https://en.wikipedia.org/wiki/Coupling_(computer_programming)) à l’application elle-même. Il est donc facile de mettre à jour le contenu existant, mais cela rend l’ajout de nouveaux itinéraires et prestations plus complexe.
+En raison des délais courts de lancement et d’itération sur ce produit, il y a eu des compromis sur plusieurs décisions de conception. Les calculs de prestations et la logique de routage sont [étroitement liés](https://fr.wikipedia.org/wiki/Couplage_(informatique)) à l’application elle-même. Il est donc facile de mettre à jour le contenu existant, mais cela rend l’ajout de nouveaux itinéraires et prestations plus complexe.
 
 ### Référentiel
 
