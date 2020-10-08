@@ -50,7 +50,7 @@ When designing government products and services, user contexts and questions are
 
 However, the public’s motivation for reducing financial stress seemed consistent throughout the 2.5 months of product development.
 
-**Motivations**:
+### Motivations:
 
 * Get the greatest amount of financial help possible; not ‘losing out’.
 
@@ -59,7 +59,7 @@ However, the public’s motivation for reducing financial stress seemed consiste
 * Fulfill a moral obligation to avoid applying for benefits to which they are not entitled.
 * Avoid trouble with the government.
 
-**Needs**:
+### Needs:
 
 * Access easy-to-understand information.
 * Access factual information that will not cause harm.
