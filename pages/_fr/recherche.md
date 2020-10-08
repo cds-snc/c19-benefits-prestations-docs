@@ -4,7 +4,7 @@ title: Recherche
 lang: fr
 trans_url: Research
 ---
-### Méthodologie et principaux renseignements
+## Méthodologie et principaux renseignements
 
 L’outil de recherche des prestations a été conçu pour être un intermédiaire entre des renseignements protégés et personnalisés accessibles dans « Mon dossier » de l’Agence du revenu du Canada ou « Mon dossier Service Canada » d’EDSC, et des renseignements publics et généraux disponibles sur [Canada.ca](https://www.canada.ca/home.html). Afin de mieux répondre à ces besoins, on a utilisé plusieurs méthodes de recherche :
 
@@ -36,13 +36,13 @@ L’outil de recherche des prestations a été conçu pour être un intermédiai
   * [Insights : COVID-19 and its impact on people with disabilities](https://www.makeitfable.com/insights/covid-19/) (en anglais seulement).
   * Autres recherches du gouvernement du Canada sur la COVID-19.
 
-### Motivations et besoins
+## Motivations et besoins
 
 Lors de la conception de produits et de services gouvernementaux, le contexte et les questions des utilisateurs sont généralement assez stables. Dans la plupart des cas, les activités de recherche ont au moins quelques mois, et souvent une année, au cours desquels les résultats sont concluants. En raison de la crise de la COVID, le contexte canadien a évolué plus rapidement que prévu et a entraîné des changements aux prestations offertes.
 
 Toutefois, la motivation du public à réduire le stress financier semblait constante tout au long des deux mois et demi d’élaboration du produit.
 
-#### Motivations
+### Motivations
 
 * Obtenir le plus d’aide financière possible; pas « perdre ».
   * Quelle que soit la crise de la COVID-19, les gens essaient d’améliorer leur situation.
@@ -50,7 +50,7 @@ Toutefois, la motivation du public à réduire le stress financier semblait cons
 * S’acquitter d’une obligation morale d’éviter de demander des prestations auxquelles ils n’ont pas droit.
 * Éviter des problèmes avec le gouvernement.
 
-#### Besoins
+### Besoins
 
 * Accéder à des renseignements faciles à comprendre.
 * Accéder à des renseignements factuels qui ne causeront aucun dommage.
