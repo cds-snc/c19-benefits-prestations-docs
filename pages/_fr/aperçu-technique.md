@@ -67,7 +67,7 @@ Toutes les nouvelles demandes d’extraction ont un ensemble de tests automatis�
 
 ### Poursuite du développement
 
-[Marche à suivre pour poursuivre le développement dans ce projet](https://docs.google.com/document/d/1JNiTEslQjt8xW7jXF--kAAeCH6uIGV12y4mAwwnitvM/edit#heading=h.2bn6wsx) : que votre objectif soit de restructurer le service dans une nouvelle technologie ou de développer et de publier ce code en particulier.
+[Marche à suivre pour poursuivre le développement dans ce projet](/continuer-le-développement/) : que votre objectif soit de restructurer le service dans une nouvelle technologie ou de développer et de publier ce code en particulier.
 
 ### Développer et exécuter l’application
 
