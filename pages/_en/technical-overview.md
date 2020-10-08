@@ -59,7 +59,7 @@ We use several third-party services for an improved development workflow and con
 * [GitHub](https://github.com/) is a cloud-based service that stores our source code, tracks code changes and facilitates code reviews.
 * [GitHub Actions](https://github.com/features/actions) is a Continuous integration and deployment (CI/CD) service that allows us to test and [deploy our code](https://github.com/cds-snc/c19-benefits-node/blob/master/.github/workflows/build-deploy-dev.yml) right from GitHub.
 
-  * CI/CD services abound, but we used GitHub Actions because it was easy to set up, and with its yml-based configuration it would also be easy to leave..
+  * CI/CD services abound, but we used GitHub Actions because it was easy to set up, and with its yml-based configuration it would also be easy to leave.
 * [Heroku](https://www.heroku.com/home) is a fully-managed platform as a service. We use Heroku [Review Apps](https://devcenter.heroku.com/articles/github-integration-review-apps) to build disposable applications per pull request, facilitating code reviews.
 * [Snyk](https://snyk.io/) is a software as a service product that scans through our dependencies for packages with known issues. It alerts us when a version of a package we’re using has a known exploit.
 * [LGTM](https://lgtm.com) is a software as a service product for continuous security analysis. It analyzes each pull request for potential security vulnerabilities.
