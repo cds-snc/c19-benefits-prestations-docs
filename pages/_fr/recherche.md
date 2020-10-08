@@ -58,4 +58,4 @@ Toutefois, la motivation du public à réduire le stress financier semblait cons
 * Trouver des renseignements uniformes dans tous les médias, comme les annonces du premier ministre, les nouvelles, les amis, Canada.ca, y compris des renseignements à jour.
 * Lire uniquement le montant minimum requis.
 
-Pour en savoir plus sur les constatations de la recherche, veuillez communiquer avec nous à [cds-snc@tbs-sct.gc.ca](mailto:cds-snc@tbs-sct.gc.ca).
+Pour en savoir plus sur les constatations de la recherche, veuillez envoyer un courriel au [Service du numérique canadien](mailto:cds-snc@tbs-sct.gc.ca).
