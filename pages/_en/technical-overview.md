@@ -22,16 +22,6 @@ Main repository for the benefit finder
 
 Audit log for releases to production
 
-### For developers
-
-* Summary
-
-  * Use of third-party services.
-  * Automated tests.
-  * Continuing development.
-* Build and run the application.
-
-
 
 ### Summary
 
