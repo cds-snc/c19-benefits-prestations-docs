@@ -7,5 +7,4 @@ menuItems:
   - menuItem: Research
   - menuItem: Technical overview
   - menuItem: Contact
-  - menuItem: Information about Find financial help during COVID-19
 ---
