@@ -4,7 +4,7 @@ title: Conception
 lang: fr
 trans_url: Design
 ---
-La conception a été fondée sur des pratiques exemplaires. La première itération reposait sur l’hypothèse que les utilisateurs doivent :
+La conception a été menée en s'appuyant sur les meilleures pratiques du domaine. La première itération reposait sur l’hypothèse que les utilisateurs doivent :
 
 * naviguer facilement dans l’outil en ligne, en se concentrant sur une question à la fois;
 * choisir dans une liste de situations apparentées rédigées en langage simple;
