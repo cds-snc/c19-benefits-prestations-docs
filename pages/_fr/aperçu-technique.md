@@ -20,13 +20,6 @@ Référentiel principal pour l’outil de recherche des prestations
 
 Journal d’audit des lancements en production
 
-### À l’intention des développeurs
-
-* Sommaire
-  * Utilisation des services de tiers.
-  * Tests automatisés.
-  * Poursuite du développement.
-* Développer et exécuter l’application.
 
 ### Sommaire
 
