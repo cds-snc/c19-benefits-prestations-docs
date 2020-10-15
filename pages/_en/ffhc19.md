@@ -4,6 +4,8 @@ title: Information about Find financial help during COVID-19
 lang: en
 trans_url: ""
 ---
+**Note**: CDS transferred ownership of the product to ESDC in July 2020 . This documentation does not reflect further iterations past July 2020.
+
 [Find financial help during COVID-19](https://www.canada.ca/coronavirusbenefits) (the “benefit finder”) was built to help people living in Canada during the COVID-19 crisis. Guided by a set of [digital principles](https://www.canada.ca/en/government/system/digital-government/government-canada-digital-standards.html), this tool was designed for and with users, to ensure they can get accurate and timely information. The benefit finder helps people determine which government benefit programs best meet their needs.
 
 After anonymously answering a few simple questions, individuals are presented with a personalized list of financial benefits available based on their specific circumstances.
