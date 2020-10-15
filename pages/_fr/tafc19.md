@@ -2,7 +2,7 @@
 layout: page
 title: Renseignements sur Trouver de l’aide financière pendant la COVID-19
 lang: fr
-trans_url: ""
+trans_url: Information about Find financial help during COVID-19
 ---
 [Trouver de l’aide financière pendant la COVID-19](https://covid-prestations.alpha.canada.ca/fr/debut) (l’« Outil de recherche des prestations ») a été construit pour aider les personnes qui vivent au Canada pendant la crise de la COVID-19. Orienté par un ensemble de [principes numériques](https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/normes-numeriques-gouvernement-canada.html), cet outil a été conçu pour les utilisateurs et avec eux afin de s’assurer qu’ils peuvent obtenir des renseignements exacts et à jour. L’outil de recherche des prestations aide les personnes à déterminer les programmes de prestations du gouvernement qui répondent le mieux à leurs besoins.
 
