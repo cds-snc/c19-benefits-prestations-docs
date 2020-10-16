@@ -4,7 +4,7 @@ title: Information about Find financial help during COVID-19
 lang: en
 trans_url: ""
 ---
-**Note**: The [Canadian Digital Service (CDS)](https://digital.canada.ca/) transferred ownership of the product to [](https://www.canada.ca/en/employment-social-development.html)[Service Canada (SC)](https://www.canada.ca/en/employment-social-development/corporate/portfolio/service-canada.html) in July 2020 . This documentation does not reflect further iterations past July 2020.
+**Note**: The [Canadian Digital Service (CDS)](https://digital.canada.ca/) transferred ownership of the product to [](https://www.canada.ca/en/employment-social-development.html)[Service Canada (SC)](https://www.canada.ca/en/employment-social-development/corporate/portfolio/service-canada.html) in July 2020. This documentation does not reflect further iterations past July 2020.
 
 [Find financial help during COVID-19](https://www.canada.ca/coronavirusbenefits) (the “benefit finder”) was built to help people living in Canada during the COVID-19 crisis. Guided by a set of [digital principles](https://www.canada.ca/en/government/system/digital-government/government-canada-digital-standards.html), this tool was designed for and with users, to ensure they can get accurate and timely information. The benefit finder helps people determine which government benefit programs best meet their needs.
 
