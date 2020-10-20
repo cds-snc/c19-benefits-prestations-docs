@@ -32,7 +32,6 @@ collections:
         searchFields: ["title"]
         valueField: "title"
         displayFields: ["title"]
-        defaultValue: "ffhc19"
         required: false
       - label: "Select sub page(s)"
         hint: "If there are any pages that are sub-sections of this one, select them here"
@@ -73,7 +72,6 @@ collections:
         searchFields: ["title"]
         valueField: "title"
         displayFields: ["title"]
-        defaultValue: "tafc19"
         required: false
       - label: "Select sub page(s)"
         hint: "If there are any pages that are sub-sections of this one, select them here"
