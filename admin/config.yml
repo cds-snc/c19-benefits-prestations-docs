@@ -108,7 +108,7 @@ collections:
             displayFields: ["title", "trans_url"]
   - name: "homepageEn"
     label: "Homepage - EN"
-    folder: "pages/_en"
+    folder: "pages/_homepage"
     sort: "title:asc"
     create: false
     fields:
@@ -134,7 +134,7 @@ collections:
         required: false
   - name: "homepageFr"
     label: "Homepage - FR"
-    folder: "pages/_fr"
+    folder: "pages/_homepage"
     sort: "title:asc"
     create: false
     fields:
