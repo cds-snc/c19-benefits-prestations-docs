@@ -2,7 +2,7 @@
 layout: page
 title: Information about Find financial help during COVID-19
 lang: en
-trans_url: Renseignements sur Trouver de l’aide financière pendant la COVID-19
+trans_url: tafc19
 ---
 **Note**: The [Canadian Digital Service (CDS)](https://digital.canada.ca/) transferred ownership of the product to [](https://www.canada.ca/en/employment-social-development.html)[Service Canada (SC)](https://www.canada.ca/en/employment-social-development/corporate/portfolio/service-canada.html) in July 2020. This documentation does not reflect further iterations past July 2020.
 
