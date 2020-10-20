@@ -106,8 +106,8 @@ collections:
             searchFields: ["title", "trans_url"]
             valueField: "title"
             displayFields: ["title", "trans_url"]
-  - name: "homepageEn"
-    label: "Homepage - EN"
+  - name: "homepages"
+    label: "Homepages"
     folder: "pages/_homepage"
     sort: "title:asc"
     create: false
@@ -132,35 +132,3 @@ collections:
         displayFields: ["title"]
         multiple: true
         required: false
-  - name: "homepageFr"
-    label: "Homepage - FR"
-    folder: "pages/_homepage"
-    sort: "title:asc"
-    create: false
-    fields:
-      - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
-      - {
-          label: "Titre",
-          name: "title",
-          widget: "string",
-          tagname: "h1",
-          required: true,
-        }
-      - { label: "Lang", name: "lang", widget: "hidden", default: "fr" }
-      - {
-          label: "Corps du texte",
-          name: "body",
-          widget: "markdown",
-          required: true,
-        }
-      - label: "Select sub page(s)"
-        hint: "If there are any pages that are sub-sections of this one, select them here"
-        name: "childPages"
-        widget: "relation"
-        collection: "docEn"
-        searchFields: ["title"]
-        valueField: "title"
-        displayFields: ["title"]
-        multiple: true
-        required: false
-  
