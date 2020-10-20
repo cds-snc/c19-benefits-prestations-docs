@@ -11,6 +11,9 @@ collections:
   fr:
     output: true
     permalink: /:path/
+  homepage:
+    output: true
+    permalink: /:path/
   menu:
     output: false
 
