@@ -2,7 +2,7 @@
 layout: page
 title: Renseignements sur Trouver de l’aide financière pendant la COVID-19
 lang: fr
-trans_url: Information about Find financial help during COVID-19
+trans_url: ffhc19
 ---
 **Remarque** : Le [Service numérique canadien (SNC)](https://numerique.canada.ca/) a transféré la propriété du produit à [Service Canada (SC)](https://www.canada.ca/fr/emploi-developpement-social/ministere/portefeuille/service-canada.html) en juillet 2020. Cette documentation ne reflète donc pas les dernières itérations intervenues après juillet 2020.
 
