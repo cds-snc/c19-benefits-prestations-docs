@@ -10,9 +10,6 @@ en:
   homepage-nav-label: "Home"
   homepage-slug: "/ffhc19/"
   site-name: "Find financial help during COVID-19 Documentation"
-  read-the: "Read the"
-  terms-url: "/terms-and-conditions/"
-  terms: "terms and conditions"
 fr:
   homepage-tag-line: "Aider les canadiens à trouver les prestations auxquelles ils ont le droit pendant la Covid-19"
   cds-snc: "Service numérique canadien"
@@ -25,6 +22,3 @@ fr:
   homepage-nav-label: "Accueil"
   homepage-slug: "/tafc19/"
   site-name: "Documentation sur Trouver de l’aide financière pendant la COVID-19"
-  read-the: "Lire les"
-  terms-url: "/avis/"
-  terms: "avis de termes et conditions"
