@@ -21,7 +21,7 @@ collections:
 name: Find financial help during COVID-19
 subtitle: Help Canadians find benefits they may be eligible for during Covid-19
 
-baseurl: ""
+baseurl: "/c19-benefits-docs"
 
 # Author/Organization info to be displayed in the templates
 author:

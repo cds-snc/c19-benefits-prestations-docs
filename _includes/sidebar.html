@@ -3,6 +3,9 @@
   <a class="skip-link visuallyhidden focusable" href="#main">Skip to Main Content</a>
   <nav class="sidebar-nav">
     <ul>
+      <li {% if site.data.translations[page.lang].homepage-slug == page.url %}class="sidebar-nav-active"{% endif %}>
+        <a href="{{ site.baseurl }}{{ site.data.translations[page.lang].homepage-slug }}">{{ site.data.translations[page.lang].homepage-nav-label }}</a>            
+      </li>
       {% for navPage in site.menu %}
         {% for item in navPage.menuItems %}
           {% for sitePage in site[page.lang] %}
