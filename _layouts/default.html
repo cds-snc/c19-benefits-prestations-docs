@@ -54,10 +54,7 @@
             {{site.data.translations[page.lang].built-by}}
             <a href="{{ site.data.translations[page.lang].cds-snc-url }}"
               >{{ site.data.translations[page.lang].cds-snc}}</a
-            >. {{site.data.translations[page.lang].read-the}}
-            <a href="{{ site.data.translations[page.lang].terms-url }}"
-              >{{ site.data.translations[page.lang].terms}}</a
-            >.
+            >
           </p>
           <p>
             <a
@@ -85,16 +82,5 @@
       }
     </script>
     {% endif %}
-    <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/"
-            })
-          }
-        })
-      }
-    </script>
   </body>
 </html>

@@ -1,8 +1,8 @@
 en:
-  - name: c19-benefits-node
+  - name: c19-benefits-prestations-docs
     description: A benefit signup prototype
-    url: https://github.com/cds-snc/c19-benefits-node
+    url: https://github.com/cds-snc/c19-benefits-prestations-docs
 fr:
-  - name: c19-benefits-node
+  - name: c19-benefits-prestations-docs
     description: Un prototype d’inscription à des prestations
-    url: https://github.com/cds-snc/c19-benefits-node
+    url: https://github.com/cds-snc/c19-benefits-prestations-docs

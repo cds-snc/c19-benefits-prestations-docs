@@ -17,9 +17,9 @@ All you need to do here is run the app and then find all the URLs.
 
 1. First, get it to boot up.
 
-   * Check out “Running Locally” in the [README](https://github.com/cds-snc/c19-benefits-node/blob/master/README.md).
+   * Check out “Running Locally” in the [README](https://github.com/cds-snc/c19-benefits-prestations-docs/blob/master/README.md).
    * The app will be running at <http://localhost:3030/>.
-2. A full list of URLs can be found in [/config/routes.config.js](https://github.com/cds-snc/c19-benefits-node/blob/master/config/routes.config.js). You will have to navigate the flows to see them all.
+2. A full list of URLs can be found in [/config/routes.config.js](https://github.com/cds-snc/c19-benefits-prestations-docs/blob/master/config/routes.config.js). You will have to navigate the flows to see them all.
 
 ## 2. Continue using our repository
 
@@ -27,11 +27,11 @@ In order to pick up development after some arbitrary length of time, first you n
 
 1. First, get it to boot up.
 
-   * Check out “Running locally” in the [README](https://github.com/cds-snc/c19-benefits-node/blob/master/README.md).
+   * Check out “Running locally” in the [README](https://github.com/cds-snc/c19-benefits-prestations-docs/blob/master/README.md).
    * The app will be running at <http://localhost:3030/>.
 2. Second, run the tests. If they all pass (they should), then you can continue.
 
-   * Check “Testing” in the [README](https://github.com/cds-snc/c19-benefits-node/blob/master/README.md).
+   * Check “Testing” in the [README](https://github.com/cds-snc/c19-benefits-prestations-docs/blob/master/README.md).
 3. Update all the dependencies, as many will be out of date.
 
 ### Repository structure
