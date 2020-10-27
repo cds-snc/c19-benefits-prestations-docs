@@ -1,5 +1,0 @@
-[[redirects]]
-  from = "/"
-  to = "/ffhc19/"
-  status = 302
-  force = true
