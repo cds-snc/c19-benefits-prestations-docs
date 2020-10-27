@@ -8,7 +8,7 @@ en:
   repo: "Repository"
   language: "Français"
   homepage-nav-label: "Home"
-  homepage-slug: "/ffhc19/"
+  homepage-slug: "/home/"
   site-name: "Find financial help during COVID-19 Documentation"
 fr:
   homepage-tag-line: "Aider les canadiens à trouver les prestations auxquelles ils ont le droit pendant la Covid-19"
@@ -20,5 +20,5 @@ fr:
   repo: "Dépôt"
   language: "English"
   homepage-nav-label: "Accueil"
-  homepage-slug: "/tafc19/"
+  homepage-slug: "/accueil/"
   site-name: "Documentation sur Trouver de l’aide financière pendant la COVID-19"

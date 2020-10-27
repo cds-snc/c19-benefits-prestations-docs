@@ -12,7 +12,7 @@ En raison des délais courts de lancement et d’itération sur ce produit, il y
 
 ### Référentiel
 
-[C19-Benefits-Node](https://github.com/cds-snc/c19-benefits-node)
+[c19-benefits-prestations-docs](https://github.com/cds-snc/c19-benefits-prestations-docs)
 
 Référentiel principal pour l’outil de recherche des prestations
 
@@ -32,14 +32,14 @@ L’application met en œuvre de nombreuses pratiques recommandées pour un serv
 * Elle est abondamment testée, y compris des tests [cypress](https://www.cypress.io/) de bout en bout avec des [analyses d’accessibilité intégrées](https://github.com/avanslaars/cypress-axe).
 * Elle comprend un pipeline d’intégration continue et de déploiement continu (IC/DC), compatible avec [GitHub Actions](https://github.com/features/actions).
 * Elle peut s’exécuter en tant qu’application de nœud sur un système d’exploitation *nix ou Windows ou en tant que conteneur [Docker](https://docs.docker.com/install/).
-* Elle comprend des [scripts terraform](https://github.com/cds-snc/c19-benefits-node/tree/master/terraform) pour le déploiement dans Azure.
+* Elle comprend des [scripts terraform](https://github.com/cds-snc/c19-benefits-prestations-docs/tree/master/terraform) pour le déploiement dans Azure.
 
 ### Utilisation des services de tiers
 
 On utilise plusieurs services tiers pour un meilleur flux de développement et une sécurité continue.
 
 * [GitHub](https://github.com/) est un service infonuagique qui stocke notre code source, suit les changements de code et facilite les révisions de code.
-* [GitHub Actions](https://github.com/features/actions) est un service d’IC/DC qui nous permet de tester et de [déployer notre code](https://github.com/cds-snc/c19-benefits-node/blob/master/.github/workflows/build-deploy-dev.yml) directement à partir de GitHub.
+* [GitHub Actions](https://github.com/features/actions) est un service d’IC/DC qui nous permet de tester et de [déployer notre code](https://github.com/cds-snc/c19-benefits-prestations-docs/blob/master/.github/workflows/build-deploy-dev.yml) directement à partir de GitHub.
   * Les services d’IC/DC abondent, mais on a utilisé GitHub Actions parce qu’il était facile à configurer, et avec sa configuration basée sur le yml, il serait aussi facile de partir.
 * [Heroku](https://www.heroku.com/home) est une plateforme entièrement gérée en tant que service. Nous utilisons [Review Apps](https://devcenter.heroku.com/articles/github-integration-review-apps) de Heroku pour développer des applications jetables par demande d’extraction, ce qui facilite les examens de code.
 * [Snyk](https://snyk.io/) est un logiciel comme service qui analyse nos dépendances liées aux trousses avec des problèmes connus. Il nous avertit lorsqu’une version d’une trousse que nous utilisons une exploitation connue.
@@ -64,4 +64,4 @@ Toutes les nouvelles demandes d’extraction ont un ensemble de tests automatis�
 
 ### Développer et exécuter l’application
 
-Consultez [README](https://github.com/cds-snc/c19-benefits-node/blob/master/README.md) pour obtenir des instructions plus détaillées sur le développement et le déploiement de l’application.
+Consultez [README](https://github.com/cds-snc/c19-benefits-prestations-docs/blob/master/README.md) pour obtenir des instructions plus détaillées sur le développement et le déploiement de l’application.
