@@ -12,7 +12,7 @@ En raison des délais courts de lancement et d’itération sur ce produit, il y
 
 ### Référentiel
 
-[c19-benefits-prestations-docs](https://github.com/cds-snc/c19-benefits-prestations-docs)
+[c19-benefits-node](https://github.com/cds-snc/c19-benefits-node)
 
 Référentiel principal pour l’outil de recherche des prestations
 
