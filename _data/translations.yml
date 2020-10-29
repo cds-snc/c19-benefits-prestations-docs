@@ -1,7 +1,11 @@
 en:
   homepage-tag-line: "Help Canadians find benefits they may be eligible for during Covid-19"
   cds-snc: "Canadian Digital Service"
+  esdc: "Employment and Social Development Canada (ESDC)"
+  sc: "Service Canada (SC)"
   cds-snc-url: "https://digital.canada.ca"
+  esdc-url: "https://www.canada.ca/en/employment-social-development.html"
+  sc-url: "https://www.canada.ca/en/employment-social-development/corporate/portfolio/service-canada.html"
   hosting: "Hosted on"
   built-by: "This project was built by the"
   contribute: "Contribute to this documentation"
@@ -10,10 +14,15 @@ en:
   homepage-nav-label: "Home"
   homepage-slug: "/home/"
   site-name: "Find financial help during COVID-19 Documentation"
+  and: "and"
 fr:
   homepage-tag-line: "Aider les canadiens à trouver les prestations auxquelles ils ont le droit pendant la Covid-19"
   cds-snc: "Service numérique canadien"
+  esdc: "Emploi et Développement social Canada (EDSC)"
+  sc: " Service Canada (SC)"
   cds-snc-url: "https://numerique.canada.ca"
+  esdc-url: "https://www.canada.ca/fr/emploi-developpement-social.html"
+  sc-url: "https://www.canada.ca/fr/emploi-developpement-social/ministere/portefeuille/service-canada.html"
   hosting: "Hébergé dans"
   built-by: "Ce projet a été élaboré par le"
   contribute: "Contribuer à cette documentation"
@@ -22,3 +31,5 @@ fr:
   homepage-nav-label: "Accueil"
   homepage-slug: "/accueil/"
   site-name: "Documentation sur Trouver de l’aide financière pendant la COVID-19"
+  and: "et"
+
