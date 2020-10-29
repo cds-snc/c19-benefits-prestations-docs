@@ -38,7 +38,7 @@ The application implements many recommended practices for a modern web service.
 * It is copiously tested, including end-to-end [cypress](https://www.cypress.io/) tests with [integrated accessibility scans](https://github.com/avanslaars/cypress-axe).
 * It includes a Continuous integration and deployment (CI/CD) pipeline, compatible with [GitHub Actions](https://github.com/features/actions).
 * It can run as a node app on a *nix or Windows OS or as a [Docker](https://docs.docker.com/install/) container.
-* It includes [terraform scripts](https://github.com/cds-snc/c19-benefits-prestations-docs/tree/master/terraform) for deploying to Azure.
+* It includes [terraform scripts](https://github.com/cds-snc/c19-benefits-node/tree/master/terraform) for deploying to Azure.
 
 ### Use of third-party services
 
@@ -47,7 +47,7 @@ We use several third-party services for an improved development workflow and con
 
 
 * [GitHub](https://github.com/) is a cloud-based service that stores our source code, tracks code changes and facilitates code reviews.
-* [GitHub Actions](https://github.com/features/actions) is a Continuous integration and deployment (CI/CD) service that allows us to test and [deploy our code](https://github.com/cds-snc/c19-benefits-prestations-docs/blob/master/.github/workflows/build-deploy-dev.yml) right from GitHub.
+* [GitHub Actions](https://github.com/features/actions) is a Continuous integration and deployment (CI/CD) service that allows us to test and [deploy our code](https://github.com/cds-snc/c19-benefits-node/blob/master/.github/workflows/build-deploy-dev.yml) right from GitHub.
 
   * CI/CD services abound, but we used GitHub Actions because it was easy to set up, and with its yml-based configuration it would also be easy to leave.
 * [Heroku](https://www.heroku.com/home) is a fully-managed platform as a service. We use Heroku [Review Apps](https://devcenter.heroku.com/articles/github-integration-review-apps) to build disposable applications per pull request, facilitating code reviews.
@@ -74,10 +74,10 @@ All new pull requests have a suite of automated tests run against them.
 
 ### Continuing development
 
-[A walkthrough on how to continue development on this project](/continuing-development/): whether your aim is to rebuild the service in a new technology or to develop and release this codebase specifically.
+[A walkthrough on how to continue development on this project](../continuing-development/): whether your aim is to rebuild the service in a new technology or to develop and release this codebase specifically.
 
 
 
 ### Build and run the application
 
-Check out the [README](https://github.com/cds-snc/c19-benefits-prestations-docs/blob/master/README.md) for more detailed instructions on building and deploying the application.
+Check out the [README](https://github.com/cds-snc/c19-benefits-node/blob/master/README.md) for more detailed instructions on building and deploying the application.

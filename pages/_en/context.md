@@ -25,7 +25,7 @@ In this context, accessing benefits can lead to additional stress due to program
 
 The benefit finder allows people to match benefits to their individual situation. It shows them how much assistance they can expect, how frequently they can expect it, and when they will receive it. This information helps people make immediate financial decisions and determine their next steps.
 
-![Screenshot of Find financial help during COVID-19 start page. Content "Here, you'll be asked 7 to 10 questions, one at a time. Then we'll show you a list of benefits that map help in your situation. It will also have links for more information." Button "Start now". Question "Own a business?". Link "Find support for your business." Button "Report a problem or mistake on the page". Link "Own a business? Find support for your business". Button "Report a problem or mistake on this page". Link "Privacy policy". Link "Terms and conditions". Symbol of the Government of Canada](/assets/img/find_en.png "Screenshot of Find financial help during COVID-19 start page")
+![Screenshot of Find financial help during COVID-19 start page. Content "Here, you'll be asked 7 to 10 questions, one at a time. Then we'll show you a list of benefits that map help in your situation. It will also have links for more information." Button "Start now". Question "Own a business?". Link "Find support for your business." Button "Report a problem or mistake on the page". Link "Own a business? Find support for your business". Button "Report a problem or mistake on this page". Link "Privacy policy". Link "Terms and conditions". Symbol of the Government of Canada](../assets/img/find_en.png "Screenshot of Find financial help during COVID-19 start page")
 
 ## Footnotes
 

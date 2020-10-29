@@ -25,7 +25,7 @@ Dans ce contexte, l’accès aux prestations peut entraîner un stress suppléme
 
 L’outil de recherche des prestations permet aux gens de faire correspondre les prestations à leur situation personnelle. Il leur montre le montant d’aide auquel ils peuvent s’attendre, à quelle fréquence ils peuvent s’y attendre et quand ils le recevront. Ces renseignements aident les gens à prendre des décisions financières immédiates et à déterminer leurs prochaines étapes. 
 
-![Exemple : "Trouver de l’aide financière pendant la COVID-19." Contenu : "Ici, nous vous demanderons entre 7 et 10 questions, une à la fois. Ensuite nous vous montrerons une liste de prestations qui pourraient vous aider. Des liens vers davantage d’information vous seront donnés." Bouton : "Commencer". Lien : Vous êtes propriétaire d’entreprise? Trouvez du soutien pour votre entreprise." Bouton : "Signaler un problème ou une erreur sur cette page". Lien : "Politique de confidentialité". Lien : "Avis". Symbole du gouvernement du Canada](/assets/img/find_fr.png "Trouver de l’aide financière pendant la COVID-19")
+![Exemple : "Trouver de l’aide financière pendant la COVID-19." Contenu : "Ici, nous vous demanderons entre 7 et 10 questions, une à la fois. Ensuite nous vous montrerons une liste de prestations qui pourraient vous aider. Des liens vers davantage d’information vous seront donnés." Bouton : "Commencer". Lien : Vous êtes propriétaire d’entreprise? Trouvez du soutien pour votre entreprise." Bouton : "Signaler un problème ou une erreur sur cette page". Lien : "Politique de confidentialité". Lien : "Avis". Symbole du gouvernement du Canada](../assets/img/find_fr.png "Trouver de l’aide financière pendant la COVID-19")
 
 ## Notes de bas de page
 
