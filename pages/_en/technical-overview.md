@@ -14,7 +14,7 @@ Due to short timelines to launch and iterate on this product, there were comprom
 
 ### Repository
 
-[c19-benefits-prestations-docs](https://github.com/cds-snc/c19-benefits-prestations-docs)
+[c19-benefits-node](https://github.com/cds-snc/c19-benefits-node)
 
 Main repository for the benefit finder
 
